@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #40514e;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f5f5f5;
+  bottom: 0%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #2f89fc;
+  font-weight: 500;
+}
+
+.flex_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* HEADER */
+header {
+  color: #2f89fc;
+  background-color: #f5f5f5;
+}
+
+header ul {
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  margin: 0px 10px;
+}
+
+.container__main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container__main h1 {
+  margin: 25px;
+}
+
+.container__main img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  height: 300px;
+  width: auto;
+  margin: 25px auto;
+}
+
+.contenedor-header-footer {
+  max-width: 90%;
+  margin: auto;
+}
+
+.flex_column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  color: #f5f5f5;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+}
+
+fieldset div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+fieldset input {
+  color: black;
+}
+
+#estado-civil {
+  color: black;
+}
+
+.flex_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.button {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  padding: 10px;
+  color: #2f89fc !important;
+  font-weight: 500;
+}
+
+.button:hover {
+  color: #f5f5f5 !important;
+  background-color: #2f89fc;
+  border-radius: 10%;
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.button:active {
+  background-color: #40514e;
+}
+
+/* MAIN */
+main h1,
+p {
+  color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+}
+
+.container__video {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circle {
+  border-radius: 50% !important;
+}
+
+/* GRID */
+.grid-contacto {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "logo logo" "form form";
+  padding: 10px;
+}
+
+.grid-contacto select {
+  width: 180px;
+}
+
+.grid-contacto input {
+  width: 180px;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+section#logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: logo;
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#text {
+  grid-area: text;
+}
+
+section#form {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: form;
+}
+/*# sourceMappingURL=style.css.map */

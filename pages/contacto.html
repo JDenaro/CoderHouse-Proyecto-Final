@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Cat : Contacto. Pagina de contacto. Queremos saber tu opinion. Queremos escucharte.">
+    <meta name="keywords" content="CONTACTO, HTML, CSS, BOOTSTRAP, WEB, CAT">
+    <title>Contacto</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../img/LogoHeader.png" alt="home"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-right">
+                    <a class="nav-link button active" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link button" href="html.html">HTML</a>
+                    <a class="nav-link button" href="css.html">CSS</a>
+                    <a class="nav-link button" href="bootstrap.html">BOOTSTRAP</a>
+                    <a class="nav-link button" href="contacto.html">CONTACTO</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="container__main">
+                <h1>Contacto</h1>
+                <img src="../img/cat-contacto.png" alt="">
+            </div>
+        </div>
+        <section>
+            <!-- Default form contact -->
+            <div class="d-flex justify-content-center">
+                <form class="text-center border border-light p-5 col-md-4" action="#!">
+
+                    <p class="h4 mb-4">Contactanos</p>
+
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
+
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Subject -->
+                    <label>Asunto</label>
+                    <select class="browser-default custom-select mb-4">
+                    <option value="" selected disabled>Elegir una opcion</option>
+                    <option value="1">Feedback</option>
+                    <option value="2">Consulta</option>
+                    <option value="3">Opinión</option>
+                </select>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Mensaje"></textarea>
+                    </div>
+
+                    <!-- Copy -->
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Enviarme una copia de este mensaje</label>
+                    </div>
+
+                    <!-- Send button -->
+                    <button class="btn btn-info btn-block" type="submit">Enviar</button>
+
+                </form>
+                <!-- Default form contact -->
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 d-flex justify-content-around">
+            <a href="../index.html">HTML cat</a>
+            <a href="#">All rights reserved 2020</a>
+            <a href="#">Social Media icons</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
