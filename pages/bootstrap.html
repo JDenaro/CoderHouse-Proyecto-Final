@@ -14,7 +14,12 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="../img/LogoHeader.png" alt="home"></a>
+            <a class="navbar-brand d-sm-none d-flex" href="../index.html">
+                HTML CAT
+            </a>
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/LogoHeader.png" alt="home" class="img-fluid d-none d-sm-flex">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,12 +34,11 @@
             </div>
         </div>
     </nav>
-
     <main>
         <div class="container">
             <div class="container__main">
                 <h1>BOOTSTRAP</h1>
-                <img class="circle" src="../img/bootstrap.svg" alt="bootstrap">
+                <img class="img-fluid max-width-450 circle" src="../img/bootstrap.svg" alt="bootstrap">
                 <p>Bootstrap es un framework CSS desarrollado por Twitter en 2010, para estandarizar las herramientas de la compañía.</p>
                 <p>Inicialmente, se llamó Twitter Blueprint y, un poco más tarde, en 2011, se transformó en código abierto y su nombre cambió para Bootstrap. Desde entonces fue actualizado varias veces y ya se encuentra en la versión 4.4.</p>
                 <p>El framework combina CSS y JavaScript para estilizar los elementos de una página HTML. Permite mucho más que, simplemente, cambiar el color de los botones y los enlaces.</p>
@@ -50,13 +54,9 @@
     </main>
     <!-- Footer -->
     <footer class="page-footer font-small blue">
-        <!-- Copyright -->
         <div class="footer-copyright text-center py-3 d-flex justify-content-around">
-            <a href="../index.html">HTML cat</a>
-            <a href="#">All rights reserved 2020</a>
-            <a href="#">Social Media icons</a>
+            <a href="../index.html">HTMLCat © 2020</a>
         </div>
-        <!-- Copyright -->
     </footer>
     <!-- Footer -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

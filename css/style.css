@@ -58,22 +58,6 @@ footer p {
 }
 
 /* HEADER */
-header {
-  color: #2f89fc;
-  background-color: #f5f5f5;
-}
-
-header ul {
-  font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-header ul li {
-  margin: 0px 10px;
-}
-
 .container__main {
   max-width: 1200px;
   margin: auto;
@@ -88,9 +72,13 @@ header ul li {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  height: 300px;
-  width: auto;
+  max-width: 75%;
+  max-height: auto;
   margin: 25px auto;
+}
+
+.container__main .max-width-450 {
+  max-width: 450px;
 }
 
 .contenedor-header-footer {
@@ -175,18 +163,20 @@ fieldset input {
   font-weight: 500;
 }
 
-.button:hover {
-  color: #f5f5f5 !important;
-  background-color: #2f89fc;
-  border-radius: 10%;
-  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+.button:active {
+  color: #40514e;
 }
 
-.button:active {
-  background-color: #40514e;
+@media screen and (min-width: 992px) {
+  .button:hover {
+    color: #f5f5f5 !important;
+    background-color: #2f89fc;
+    border-radius: 10%;
+    -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
 }
 
 /* MAIN */
@@ -211,30 +201,7 @@ p {
   border-radius: 50% !important;
 }
 
-/* GRID */
-.grid-contacto {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "logo logo" "form form";
-  padding: 10px;
-}
-
-.grid-contacto select {
-  width: 180px;
-}
-
-.grid-contacto input {
-  width: 180px;
-}
-
-.border {
-  border: 1px solid black;
-}
-
 section#logo {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: logo;
   background-color: #f5f5f5;
   display: -webkit-box;
@@ -250,9 +217,6 @@ section#text {
 }
 
 section#form {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: form;
 }
 /*# sourceMappingURL=style.css.map */
